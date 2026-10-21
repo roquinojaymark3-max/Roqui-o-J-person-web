@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaymark Roquiño Personal Web</title>
+    <meta name="description" content="Jaymark Roquiño Personal Web - Grade 11 Student at Gateway Institute of Science and Technology studying HTML and Web Design.">
+    <meta name="keywords" content="Jaymark Roquiño personal web, Jaymark Roquino, Gateway Institute of Science and Technology">
+    <meta name="author" content="Jaymark Roquiño">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header h1 span {
+            color: #00bcd4;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #ddd;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            gap: 30px;
+        }
+
+        .col {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .story h2, .personal-info h2 {
+            color: #00bcd4;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .story p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .btn-resume {
+            display: inline-block;
+            background-color: #00bcd4;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+
+        .btn-resume:hover {
+            background-color: #008c9e;
+        }
+
+        .profile-img {
+            text-align: center;
+        }
+
+        .profile-img img {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
+        }
+
+        .personal-info ul {
+            list-style: none;
+        }
+
+        .personal-info li {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            color: #444;
+        }
+
+        .personal-info strong {
+            display: inline-block;
+            width: 100px;
+            color: #222;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background-color: #eee;
+            color: #00bcd4;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background-color: #00bcd4;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .personal-info strong {
+                width: auto;
+                display: inline;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HI! I'M <span>JAYMARK ROQUIÑO</span></h1>
+        <p>GRADE 11 STUDENT & HTML WEB DESIGNER FROM ANTIPOLO, PHILIPPINES</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="col story">
+            <h2>MY STORY</h2>
+            <p>Hello! I am <strong>Jaymark Roquiño</strong>, a Grade 11 student from <strong>Gateway Institute of Science and Technology</strong>. I have a strong passion for web design and am currently focusing on mastering <strong>HTML</strong> and web layout structuring.</p>
+            <p>My goal is to build clean, responsive, and user-friendly websites. Beyond organizing appealing web pages, I really love designing.</p>
+            <a href="#" class="btn-resume">DOWNLOAD RESUME</a>
+        </div>
+
+        <div class="col profile-img">
+            <!-- Dito lalabas ang larawan na ipapangalan mong profile.jpg -->
+            <img src="jay.jpg" alt="Jaymark Roquiño Profile Picture">
+        </div>
+
+        <div class="col personal-info">
+            <h2>PERSONAL INFORMATION</h2>
+            <ul>
+                <li><strong>Name:</strong> Jaymark Roquiño</li>
+                <li><strong>School:</strong> Gateway Institute of Science and Technology</li>
+                <li><strong>Level:</strong> Grade 11</li>
+                <li><strong>Focus Skills:</strong> HTML, Web Layout Design, Graphic Design</li>
+                <li><strong>Location:</strong> Antipolo, Philippines</li>
+                <li><strong>Email:</strong> jaymark@example.com</li>
+            </ul>
+
+            <div class="social-links">
+                <a href="#" title="Facebook">f</a>
+                <a href="#" title="Twitter">t</a>
+                <a href="#" title="GitHub">gh</a>
+                <a href="#" title="LinkedIn">in</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
